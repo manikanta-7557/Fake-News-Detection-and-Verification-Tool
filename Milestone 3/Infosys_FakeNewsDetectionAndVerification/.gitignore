@@ -1,0 +1,32 @@
+# --- Security (CRITICAL) ---
+.env
+.env.local
+secrets.py
+
+# --- Virtual Environment ---
+.venv/
+venv/
+env/
+Scripts/
+Lib/
+
+# --- Python Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Database ---
+instance/
+*.db
+*.sqlite3
+
+# --- IDE Settings (PyCharm) ---
+.idea/
+*.iml
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Uploads (Don't track uploaded user files) ---
+static/uploads/
